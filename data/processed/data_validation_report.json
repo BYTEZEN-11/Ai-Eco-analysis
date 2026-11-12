@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-11-12T22:30:49.140172",
+  "validation": {
+    "orders": {
+      "dataset": "orders",
+      "rows": 15000,
+      "columns": 15,
+      "issues": [
+        {
+          "severity": "WARNING",
+          "issue": "Invalid channel: 5303 unknown values"
+        },
+        {
+          "severity": "WARNING",
+          "issue": "Invalid category: 2478 unknown values"
+        }
+      ],
+      "summary": {
+        "date_range": "2025-01-01 to 2026-09-02",
+        "total_revenue": "$76,055,193.85",
+        "avg_order_value": "$5,070.35",
+        "return_rate": "9.33%",
+        "unique_customers": 2496
+      }
+    },
+    "customers": {
+      "dataset": "customers",
+      "rows": 2500,
+      "columns": 4,
+      "issues": [],
+      "summary": {
+        "unique_customers": 2500,
+        "segment_distribution": {
+          "Consumer": 1708,
+          "Corporate": 498,
+          "Home Office": 294
+        },
+        "signup_date_range": "2024-01-01 to 2025-12-30"
+      }
+    },
+    "referential_integrity": {
+      "test": "referential_integrity",
+      "issues": [],
+      "result": "True"
+    }
+  },
+  "issues_summary": {
+    "critical": 0,
+    "warnings": 2,
+    "info": 0
+  }
+}
