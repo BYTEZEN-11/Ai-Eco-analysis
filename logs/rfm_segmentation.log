@@ -1,0 +1,150 @@
+2026-11-11 23:53:58,121 - __main__ - INFO - ================================================================================
+2026-11-11 23:53:58,121 - __main__ - INFO - RFM CUSTOMER SEGMENTATION PIPELINE
+2026-11-11 23:53:58,121 - __main__ - INFO - Timestamp: 2026-11-11T23:53:58.121753
+2026-11-11 23:53:58,121 - __main__ - INFO - ================================================================================
+2026-11-11 23:53:58,124 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:53:58,124 - __main__ - INFO - Loading orders data...
+2026-11-11 23:53:58,165 - __main__ - INFO - Loaded 15000 orders
+2026-11-11 23:53:58,170 - __main__ - INFO - Computing RFM metrics...
+2026-11-11 23:53:58,172 - __main__ - INFO - Snapshot date: 2026-09-03
+2026-11-11 23:53:58,295 - __main__ - INFO - Computed RFM for 2496 customers
+2026-11-11 23:53:58,296 - __main__ - INFO -   Recency: 1-597 days
+2026-11-11 23:53:58,296 - __main__ - INFO -   Frequency: 1-16 orders
+2026-11-11 23:53:58,296 - __main__ - INFO -   Monetary: $0.00-$125614.94
+2026-11-11 23:53:58,296 - __main__ - INFO - Computing RFM scores (quintiles)...
+2026-11-11 23:53:58,306 - __main__ - INFO - RFM scores computed
+2026-11-11 23:53:58,306 - __main__ - INFO - Segmenting customers...
+2026-11-11 23:53:58,321 - __main__ - INFO - Segment distribution:
+2026-11-11 23:53:58,321 - __main__ - INFO -   Regular.......................   722 ( 28.9%)
+2026-11-11 23:53:58,322 - __main__ - INFO -   Champions.....................   520 ( 20.8%)
+2026-11-11 23:53:58,322 - __main__ - INFO -   Loyal.........................   516 ( 20.7%)
+2026-11-11 23:53:58,322 - __main__ - INFO -   At Risk.......................   461 ( 18.5%)
+2026-11-11 23:53:58,322 - __main__ - INFO -   New / Promising...............   277 ( 11.1%)
+2026-11-11 23:53:58,322 - __main__ - INFO - Exporting RFM segments...
+2026-11-11 23:53:58,327 - __main__ - INFO - Exported RFM segments to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\rfm_segments.csv
+2026-11-11 23:53:58,328 - __main__ - INFO - RFM segmentation pipeline completed successfully
+2026-11-11 23:57:06,228 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:06,228 - __main__ - INFO - RFM CUSTOMER SEGMENTATION PIPELINE
+2026-11-11 23:57:06,228 - __main__ - INFO - Timestamp: 2026-11-11T23:57:06.228799
+2026-11-11 23:57:06,228 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:06,232 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:57:06,232 - __main__ - INFO - Loading orders data...
+2026-11-11 23:57:06,279 - __main__ - INFO - Loaded 15000 orders
+2026-11-11 23:57:06,282 - __main__ - INFO - Computing RFM metrics...
+2026-11-11 23:57:06,283 - __main__ - INFO - Snapshot date: 2026-09-03
+2026-11-11 23:57:06,413 - __main__ - INFO - Computed RFM for 2496 customers
+2026-11-11 23:57:06,413 - __main__ - INFO -   Recency: 1-597 days
+2026-11-11 23:57:06,413 - __main__ - INFO -   Frequency: 1-16 orders
+2026-11-11 23:57:06,414 - __main__ - INFO -   Monetary: $0.00-$125614.94
+2026-11-11 23:57:06,414 - __main__ - INFO - Computing RFM scores (quintiles)...
+2026-11-11 23:57:06,421 - __main__ - INFO - RFM scores computed
+2026-11-11 23:57:06,421 - __main__ - INFO - Segmenting customers...
+2026-11-11 23:57:06,435 - __main__ - INFO - Segment distribution:
+2026-11-11 23:57:06,435 - __main__ - INFO -   Regular.......................   722 ( 28.9%)
+2026-11-11 23:57:06,435 - __main__ - INFO -   Champions.....................   520 ( 20.8%)
+2026-11-11 23:57:06,435 - __main__ - INFO -   Loyal.........................   516 ( 20.7%)
+2026-11-11 23:57:06,435 - __main__ - INFO -   At Risk.......................   461 ( 18.5%)
+2026-11-11 23:57:06,436 - __main__ - INFO -   New / Promising...............   277 ( 11.1%)
+2026-11-11 23:57:06,436 - __main__ - INFO - Exporting RFM segments...
+2026-11-11 23:57:06,443 - __main__ - INFO - Exported RFM segments to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\rfm_segments.csv
+2026-11-11 23:57:06,443 - __main__ - INFO - RFM segmentation pipeline completed successfully
+2026-11-11 23:57:30,421 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:30,422 - __main__ - INFO - RFM CUSTOMER SEGMENTATION PIPELINE
+2026-11-11 23:57:30,422 - __main__ - INFO - Timestamp: 2026-11-11T23:57:30.422191
+2026-11-11 23:57:30,422 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:30,424 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:57:30,425 - __main__ - INFO - Loading orders data...
+2026-11-11 23:57:30,462 - __main__ - INFO - Loaded 15000 orders
+2026-11-11 23:57:30,465 - __main__ - INFO - Computing RFM metrics...
+2026-11-11 23:57:30,466 - __main__ - INFO - Snapshot date: 2026-09-03
+2026-11-11 23:57:30,586 - __main__ - INFO - Computed RFM for 2496 customers
+2026-11-11 23:57:30,587 - __main__ - INFO -   Recency: 1-597 days
+2026-11-11 23:57:30,587 - __main__ - INFO -   Frequency: 1-16 orders
+2026-11-11 23:57:30,587 - __main__ - INFO -   Monetary: $0.00-$125614.94
+2026-11-11 23:57:30,587 - __main__ - INFO - Computing RFM scores (quintiles)...
+2026-11-11 23:57:30,593 - __main__ - INFO - RFM scores computed
+2026-11-11 23:57:30,593 - __main__ - INFO - Segmenting customers...
+2026-11-11 23:57:30,606 - __main__ - INFO - Segment distribution:
+2026-11-11 23:57:30,606 - __main__ - INFO -   Regular.......................   722 ( 28.9%)
+2026-11-11 23:57:30,607 - __main__ - INFO -   Champions.....................   520 ( 20.8%)
+2026-11-11 23:57:30,607 - __main__ - INFO -   Loyal.........................   516 ( 20.7%)
+2026-11-11 23:57:30,607 - __main__ - INFO -   At Risk.......................   461 ( 18.5%)
+2026-11-11 23:57:30,607 - __main__ - INFO -   New / Promising...............   277 ( 11.1%)
+2026-11-11 23:57:30,607 - __main__ - INFO - Exporting RFM segments...
+2026-11-11 23:57:30,614 - __main__ - INFO - Exported RFM segments to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\rfm_segments.csv
+2026-11-11 23:57:30,614 - __main__ - INFO - RFM segmentation pipeline completed successfully
+2026-11-11 23:58:24,229 - __main__ - INFO - ================================================================================
+2026-11-11 23:58:24,230 - __main__ - INFO - RFM CUSTOMER SEGMENTATION PIPELINE
+2026-11-11 23:58:24,230 - __main__ - INFO - Timestamp: 2026-11-11T23:58:24.230289
+2026-11-11 23:58:24,230 - __main__ - INFO - ================================================================================
+2026-11-11 23:58:24,233 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:58:24,233 - __main__ - INFO - Loading orders data...
+2026-11-11 23:58:24,281 - __main__ - INFO - Loaded 15000 orders
+2026-11-11 23:58:24,284 - __main__ - INFO - Computing RFM metrics...
+2026-11-11 23:58:24,286 - __main__ - INFO - Snapshot date: 2026-09-03
+2026-11-11 23:58:24,465 - __main__ - INFO - Computed RFM for 2496 customers
+2026-11-11 23:58:24,466 - __main__ - INFO -   Recency: 1-597 days
+2026-11-11 23:58:24,466 - __main__ - INFO -   Frequency: 1-16 orders
+2026-11-11 23:58:24,466 - __main__ - INFO -   Monetary: $0.00-$125614.94
+2026-11-11 23:58:24,467 - __main__ - INFO - Computing RFM scores (quintiles)...
+2026-11-11 23:58:24,484 - __main__ - INFO - RFM scores computed
+2026-11-11 23:58:24,484 - __main__ - INFO - Segmenting customers...
+2026-11-11 23:58:24,503 - __main__ - INFO - Segment distribution:
+2026-11-11 23:58:24,503 - __main__ - INFO -   Regular.......................   722 ( 28.9%)
+2026-11-11 23:58:24,503 - __main__ - INFO -   Champions.....................   520 ( 20.8%)
+2026-11-11 23:58:24,503 - __main__ - INFO -   Loyal.........................   516 ( 20.7%)
+2026-11-11 23:58:24,504 - __main__ - INFO -   At Risk.......................   461 ( 18.5%)
+2026-11-11 23:58:24,504 - __main__ - INFO -   New / Promising...............   277 ( 11.1%)
+2026-11-11 23:58:24,504 - __main__ - INFO - Exporting RFM segments...
+2026-11-11 23:58:24,513 - __main__ - INFO - Exported RFM segments to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\rfm_segments.csv
+2026-11-11 23:58:24,513 - __main__ - INFO - RFM segmentation pipeline completed successfully
+2026-11-11 23:59:14,750 - __main__ - INFO - ================================================================================
+2026-11-11 23:59:14,751 - __main__ - INFO - RFM CUSTOMER SEGMENTATION PIPELINE
+2026-11-11 23:59:14,751 - __main__ - INFO - Timestamp: 2026-11-11T23:59:14.751510
+2026-11-11 23:59:14,751 - __main__ - INFO - ================================================================================
+2026-11-11 23:59:14,754 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:59:14,754 - __main__ - INFO - Loading orders data...
+2026-11-11 23:59:14,799 - __main__ - INFO - Loaded 15000 orders
+2026-11-11 23:59:14,803 - __main__ - INFO - Computing RFM metrics...
+2026-11-11 23:59:14,805 - __main__ - INFO - Snapshot date: 2026-09-03
+2026-11-11 23:59:15,050 - __main__ - INFO - Computed RFM for 2496 customers
+2026-11-11 23:59:15,050 - __main__ - INFO -   Recency: 1-597 days
+2026-11-11 23:59:15,051 - __main__ - INFO -   Frequency: 1-16 orders
+2026-11-11 23:59:15,053 - __main__ - INFO -   Monetary: $0.00-$125614.94
+2026-11-11 23:59:15,053 - __main__ - INFO - Computing RFM scores (quintiles)...
+2026-11-11 23:59:15,075 - __main__ - INFO - RFM scores computed
+2026-11-11 23:59:15,075 - __main__ - INFO - Segmenting customers...
+2026-11-11 23:59:15,103 - __main__ - INFO - Segment distribution:
+2026-11-11 23:59:15,103 - __main__ - INFO -   Regular.......................   722 ( 28.9%)
+2026-11-11 23:59:15,103 - __main__ - INFO -   Champions.....................   520 ( 20.8%)
+2026-11-11 23:59:15,103 - __main__ - INFO -   Loyal.........................   516 ( 20.7%)
+2026-11-11 23:59:15,103 - __main__ - INFO -   At Risk.......................   461 ( 18.5%)
+2026-11-11 23:59:15,103 - __main__ - INFO -   New / Promising...............   277 ( 11.1%)
+2026-11-11 23:59:15,103 - __main__ - INFO - Exporting RFM segments...
+2026-11-11 23:59:15,114 - __main__ - INFO - Exported RFM segments to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\rfm_segments.csv
+2026-11-11 23:59:15,114 - __main__ - INFO - RFM segmentation pipeline completed successfully
+2026-11-12 22:30:51,707 - __main__ - INFO - ================================================================================
+2026-11-12 22:30:51,708 - __main__ - INFO - RFM CUSTOMER SEGMENTATION PIPELINE
+2026-11-12 22:30:51,708 - __main__ - INFO - Timestamp: 2026-11-12T22:30:51.708381
+2026-11-12 22:30:51,708 - __main__ - INFO - ================================================================================
+2026-11-12 22:30:51,711 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-12 22:30:51,711 - __main__ - INFO - Loading orders data...
+2026-11-12 22:30:51,752 - __main__ - INFO - Loaded 15000 orders
+2026-11-12 22:30:51,755 - __main__ - INFO - Computing RFM metrics...
+2026-11-12 22:30:51,756 - __main__ - INFO - Snapshot date: 2026-09-03
+2026-11-12 22:30:51,873 - __main__ - INFO - Computed RFM for 2496 customers
+2026-11-12 22:30:51,874 - __main__ - INFO -   Recency: 1-597 days
+2026-11-12 22:30:51,874 - __main__ - INFO -   Frequency: 1-16 orders
+2026-11-12 22:30:51,874 - __main__ - INFO -   Monetary: $0.00-$125614.94
+2026-11-12 22:30:51,874 - __main__ - INFO - Computing RFM scores (quintiles)...
+2026-11-12 22:30:51,885 - __main__ - INFO - RFM scores computed
+2026-11-12 22:30:51,885 - __main__ - INFO - Segmenting customers...
+2026-11-12 22:30:51,899 - __main__ - INFO - Segment distribution:
+2026-11-12 22:30:51,899 - __main__ - INFO -   Regular.......................   722 ( 28.9%)
+2026-11-12 22:30:51,899 - __main__ - INFO -   Champions.....................   520 ( 20.8%)
+2026-11-12 22:30:51,899 - __main__ - INFO -   Loyal.........................   516 ( 20.7%)
+2026-11-12 22:30:51,899 - __main__ - INFO -   At Risk.......................   461 ( 18.5%)
+2026-11-12 22:30:51,899 - __main__ - INFO -   New / Promising...............   277 ( 11.1%)
+2026-11-12 22:30:51,899 - __main__ - INFO - Exporting RFM segments...
+2026-11-12 22:30:51,906 - __main__ - INFO - Exported RFM segments to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\rfm_segments.csv
+2026-11-12 22:30:51,906 - __main__ - INFO - RFM segmentation pipeline completed successfully

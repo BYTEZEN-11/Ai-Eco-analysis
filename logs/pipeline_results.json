@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-11-12T22:30:47.865396",
+  "duration_seconds": 26.381506,
+  "dry_run": false,
+  "results": [
+    {
+      "script": "C:\\Users\\Nitesh-PC\\Downloads\\ai-ecommerce-data-analytics-copilot-main\\ai-ecommerce-data-analytics-copilot-main\\python\\00_data_validation.py",
+      "description": "Data Validation & Profiling",
+      "status": "SUCCESS",
+      "success": true,
+      "timestamp": "2026-11-12T22:30:49.245122"
+    },
+    {
+      "script": "C:\\Users\\Nitesh-PC\\Downloads\\ai-ecommerce-data-analytics-copilot-main\\ai-ecommerce-data-analytics-copilot-main\\python\\01_eda.py",
+      "description": "Exploratory Data Analysis (EDA)",
+      "status": "SUCCESS",
+      "success": true,
+      "timestamp": "2026-11-12T22:30:50.596022"
+    },
+    {
+      "script": "C:\\Users\\Nitesh-PC\\Downloads\\ai-ecommerce-data-analytics-copilot-main\\ai-ecommerce-data-analytics-copilot-main\\python\\02_rfm_segmentation.py",
+      "description": "RFM Customer Segmentation",
+      "status": "SUCCESS",
+      "success": true,
+      "timestamp": "2026-11-12T22:30:51.999629"
+    },
+    {
+      "script": "C:\\Users\\Nitesh-PC\\Downloads\\ai-ecommerce-data-analytics-copilot-main\\ai-ecommerce-data-analytics-copilot-main\\python\\03_ab_testing.py",
+      "description": "A/B Testing Analysis",
+      "status": "SUCCESS",
+      "success": true,
+      "timestamp": "2026-11-12T22:31:06.829387"
+    },
+    {
+      "script": "C:\\Users\\Nitesh-PC\\Downloads\\ai-ecommerce-data-analytics-copilot-main\\ai-ecommerce-data-analytics-copilot-main\\python\\04_anomaly_detection.py",
+      "description": "Anomaly Detection",
+      "status": "SUCCESS",
+      "success": true,
+      "timestamp": "2026-11-12T22:31:14.243701"
+    }
+  ]
+}

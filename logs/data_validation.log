@@ -1,0 +1,80 @@
+2026-11-11 23:50:42,856 - __main__ - INFO - ================================================================================
+2026-11-11 23:50:42,857 - __main__ - INFO - DATA VALIDATION AND PROFILING PIPELINE
+2026-11-11 23:50:42,857 - __main__ - INFO - Timestamp: 2026-11-11T23:50:42.857222
+2026-11-11 23:50:42,857 - __main__ - INFO - ================================================================================
+2026-11-11 23:50:42,860 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:50:42,860 - __main__ - INFO - Loading raw datasets...
+2026-11-11 23:50:42,917 - __main__ - INFO - Loaded: orders (15000 rows), customers (2500 rows)
+2026-11-11 23:50:42,917 - __main__ - INFO - Validating orders dataset...
+2026-11-11 23:50:42,944 - __main__ - INFO - Orders validation: PASSED (2 issues)
+2026-11-11 23:50:42,944 - __main__ - INFO - Validating customers dataset...
+2026-11-11 23:50:42,951 - __main__ - INFO - Customers validation: PASSED (0 issues)
+2026-11-11 23:50:42,951 - __main__ - INFO - Checking referential integrity...
+2026-11-11 23:50:42,964 - __main__ - INFO - Referential integrity: PASSED (no orphaned records)
+2026-11-11 23:50:42,964 - __main__ - INFO - Generating data profiles...
+2026-11-11 23:50:42,964 - __main__ - INFO - Profiling orders dataset...
+2026-11-11 23:50:42,996 - __main__ - INFO - Orders profiling complete
+2026-11-11 23:50:42,996 - __main__ - INFO - Profiling customers dataset...
+2026-11-11 23:50:42,998 - __main__ - INFO - Customers profiling complete
+2026-11-11 23:50:42,999 - __main__ - INFO - Validation report saved to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\data_validation_report.json
+2026-11-11 23:50:42,999 - __main__ - WARNING - Validation completed with warnings
+2026-11-11 23:57:03,848 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:03,848 - __main__ - INFO - DATA VALIDATION AND PROFILING PIPELINE
+2026-11-11 23:57:03,848 - __main__ - INFO - Timestamp: 2026-11-11T23:57:03.848904
+2026-11-11 23:57:03,848 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:03,851 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:57:03,851 - __main__ - INFO - Loading raw datasets...
+2026-11-11 23:57:03,895 - __main__ - INFO - Loaded: orders (15000 rows), customers (2500 rows)
+2026-11-11 23:57:03,895 - __main__ - INFO - Validating orders dataset...
+2026-11-11 23:57:03,907 - __main__ - INFO - Orders validation: PASSED (2 issues)
+2026-11-11 23:57:03,907 - __main__ - INFO - Validating customers dataset...
+2026-11-11 23:57:03,914 - __main__ - INFO - Customers validation: PASSED (0 issues)
+2026-11-11 23:57:03,914 - __main__ - INFO - Checking referential integrity...
+2026-11-11 23:57:03,928 - __main__ - INFO - Referential integrity: PASSED (no orphaned records)
+2026-11-11 23:57:03,929 - __main__ - INFO - Validation report saved to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\data_validation_report.json
+2026-11-11 23:57:03,929 - __main__ - WARNING - Validation completed with warnings
+2026-11-11 23:57:28,202 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:28,202 - __main__ - INFO - DATA VALIDATION AND PROFILING PIPELINE
+2026-11-11 23:57:28,202 - __main__ - INFO - Timestamp: 2026-11-11T23:57:28.202888
+2026-11-11 23:57:28,202 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:28,205 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:57:28,205 - __main__ - INFO - Loading raw datasets...
+2026-11-11 23:57:28,243 - __main__ - INFO - Loaded: orders (15000 rows), customers (2500 rows)
+2026-11-11 23:57:28,243 - __main__ - INFO - Validating orders dataset...
+2026-11-11 23:57:28,255 - __main__ - INFO - Orders validation: PASSED (2 issues)
+2026-11-11 23:57:28,255 - __main__ - INFO - Validating customers dataset...
+2026-11-11 23:57:28,259 - __main__ - INFO - Customers validation: PASSED (0 issues)
+2026-11-11 23:57:28,259 - __main__ - INFO - Checking referential integrity...
+2026-11-11 23:57:28,282 - __main__ - INFO - Referential integrity: PASSED (no orphaned records)
+2026-11-11 23:57:28,284 - __main__ - INFO - Validation report saved to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\data_validation_report.json
+2026-11-11 23:57:28,284 - __main__ - WARNING - Validation completed with warnings
+2026-11-11 23:59:12,418 - __main__ - INFO - ================================================================================
+2026-11-11 23:59:12,418 - __main__ - INFO - DATA VALIDATION AND PROFILING PIPELINE
+2026-11-11 23:59:12,418 - __main__ - INFO - Timestamp: 2026-11-11T23:59:12.418983
+2026-11-11 23:59:12,419 - __main__ - INFO - ================================================================================
+2026-11-11 23:59:12,422 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:59:12,422 - __main__ - INFO - Loading raw datasets...
+2026-11-11 23:59:12,479 - __main__ - INFO - Loaded: orders (15000 rows), customers (2500 rows)
+2026-11-11 23:59:12,479 - __main__ - INFO - Validating orders dataset...
+2026-11-11 23:59:12,506 - __main__ - INFO - Orders validation: PASSED (2 issues)
+2026-11-11 23:59:12,506 - __main__ - INFO - Validating customers dataset...
+2026-11-11 23:59:12,511 - __main__ - INFO - Customers validation: PASSED (0 issues)
+2026-11-11 23:59:12,511 - __main__ - INFO - Checking referential integrity...
+2026-11-11 23:59:12,525 - __main__ - INFO - Referential integrity: PASSED (no orphaned records)
+2026-11-11 23:59:12,526 - __main__ - INFO - Validation report saved to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\data_validation_report.json
+2026-11-11 23:59:12,526 - __main__ - WARNING - Validation completed with warnings
+2026-11-12 22:30:49,035 - __main__ - INFO - ================================================================================
+2026-11-12 22:30:49,035 - __main__ - INFO - DATA VALIDATION AND PROFILING PIPELINE
+2026-11-12 22:30:49,035 - __main__ - INFO - Timestamp: 2026-11-12T22:30:49.035859
+2026-11-12 22:30:49,035 - __main__ - INFO - ================================================================================
+2026-11-12 22:30:49,048 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-12 22:30:49,048 - __main__ - INFO - Loading raw datasets...
+2026-11-12 22:30:49,110 - __main__ - INFO - Loaded: orders (15000 rows), customers (2500 rows)
+2026-11-12 22:30:49,110 - __main__ - INFO - Validating orders dataset...
+2026-11-12 22:30:49,122 - __main__ - INFO - Orders validation: PASSED (2 issues)
+2026-11-12 22:30:49,122 - __main__ - INFO - Validating customers dataset...
+2026-11-12 22:30:49,127 - __main__ - INFO - Customers validation: PASSED (0 issues)
+2026-11-12 22:30:49,127 - __main__ - INFO - Checking referential integrity...
+2026-11-12 22:30:49,140 - __main__ - INFO - Referential integrity: PASSED (no orphaned records)
+2026-11-12 22:30:49,142 - __main__ - INFO - Validation report saved to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\data_validation_report.json
+2026-11-12 22:30:49,142 - __main__ - WARNING - Validation completed with warnings

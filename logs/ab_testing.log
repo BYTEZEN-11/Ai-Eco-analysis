@@ -1,0 +1,202 @@
+2026-11-11 23:53:01,281 - __main__ - INFO - ================================================================================
+2026-11-11 23:53:01,281 - __main__ - INFO - A/B TESTING ANALYSIS PIPELINE
+2026-11-11 23:53:01,281 - __main__ - INFO - Timestamp: 2026-11-11T23:53:01.281570
+2026-11-11 23:53:01,281 - __main__ - INFO - ================================================================================
+2026-11-11 23:53:01,284 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:53:01,284 - __main__ - INFO - Loading orders data...
+2026-11-11 23:53:01,316 - __main__ - INFO - Loaded 15000 orders
+2026-11-11 23:53:01,317 - __main__ - INFO - Validating A/B groups...
+2026-11-11 23:53:01,318 - __main__ - INFO - Found groups: <ArrowStringArray>
+['control', 'variant']
+Length: 2, dtype: str
+2026-11-11 23:53:01,320 - __main__ - INFO - Control group: 7620 orders
+2026-11-11 23:53:01,321 - __main__ - INFO - Variant group: 7380 orders
+2026-11-11 23:53:01,321 - __main__ - INFO - Testing revenue difference...
+2026-11-11 23:53:01,334 - __main__ - INFO -   Control mean: $5107.17
+2026-11-11 23:53:01,335 - __main__ - INFO -   Variant mean: $5032.33
+2026-11-11 23:53:01,335 - __main__ - INFO -   Difference: $-74.84 (-1.47%)
+2026-11-11 23:53:01,335 - __main__ - INFO -   p-value: 0.44078
+2026-11-11 23:53:01,335 - __main__ - INFO -   Cohen's d: 0.0126 (negligible)
+2026-11-11 23:53:01,335 - __main__ - INFO - Testing return rate difference...
+2026-11-11 23:53:01,350 - __main__ - INFO -   Control return rate: 9.53%
+2026-11-11 23:53:01,350 - __main__ - INFO -   Variant return rate: 9.13%
+2026-11-11 23:53:01,350 - __main__ - INFO -   Absolute difference: -0.39%
+2026-11-11 23:53:01,350 - __main__ - INFO -   p-value: 0.42206
+2026-11-11 23:53:01,350 - __main__ - INFO - Applying bonferroni correction for 2 tests...
+2026-11-11 23:53:01,350 - __main__ - INFO - Bonferroni adjusted alpha: 0.05 / 2 = 0.02500
+2026-11-11 23:53:01,350 - __main__ - INFO - Exporting test results...
+2026-11-11 23:53:01,355 - __main__ - INFO - Exported A/B test results to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\ab_test_results.csv
+2026-11-11 23:53:47,992 - __main__ - INFO - ================================================================================
+2026-11-11 23:53:47,992 - __main__ - INFO - A/B TESTING ANALYSIS PIPELINE
+2026-11-11 23:53:47,993 - __main__ - INFO - Timestamp: 2026-11-11T23:53:47.993081
+2026-11-11 23:53:47,993 - __main__ - INFO - ================================================================================
+2026-11-11 23:53:47,997 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:53:47,997 - __main__ - INFO - Loading orders data...
+2026-11-11 23:53:48,057 - __main__ - INFO - Loaded 15000 orders
+2026-11-11 23:53:48,060 - __main__ - INFO - Validating A/B groups...
+2026-11-11 23:53:48,061 - __main__ - INFO - Found groups: <ArrowStringArray>
+['control', 'variant']
+Length: 2, dtype: str
+2026-11-11 23:53:48,063 - __main__ - INFO - Control group: 7620 orders
+2026-11-11 23:53:48,063 - __main__ - INFO - Variant group: 7380 orders
+2026-11-11 23:53:48,063 - __main__ - INFO - Testing revenue difference...
+2026-11-11 23:53:48,078 - __main__ - INFO -   Control mean: $5107.17
+2026-11-11 23:53:48,078 - __main__ - INFO -   Variant mean: $5032.33
+2026-11-11 23:53:48,078 - __main__ - INFO -   Difference: $-74.84 (-1.47%)
+2026-11-11 23:53:48,078 - __main__ - INFO -   p-value: 0.44078
+2026-11-11 23:53:48,078 - __main__ - INFO -   Cohen's d: 0.0126 (negligible)
+2026-11-11 23:53:48,078 - __main__ - INFO - Testing return rate difference...
+2026-11-11 23:53:48,102 - __main__ - INFO -   Control return rate: 9.53%
+2026-11-11 23:53:48,103 - __main__ - INFO -   Variant return rate: 9.13%
+2026-11-11 23:53:48,103 - __main__ - INFO -   Absolute difference: -0.39%
+2026-11-11 23:53:48,103 - __main__ - INFO -   p-value: 0.42206
+2026-11-11 23:53:48,103 - __main__ - INFO - Applying bonferroni correction for 2 tests...
+2026-11-11 23:53:48,103 - __main__ - INFO - Bonferroni adjusted alpha: 0.05 / 2 = 0.02500
+2026-11-11 23:53:48,103 - __main__ - INFO - Exporting test results...
+2026-11-11 23:53:48,111 - __main__ - INFO - Exported A/B test results to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\ab_test_results.csv
+2026-11-11 23:53:48,111 - __main__ - INFO - A/B testing pipeline completed successfully
+2026-11-11 23:57:08,135 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:08,136 - __main__ - INFO - A/B TESTING ANALYSIS PIPELINE
+2026-11-11 23:57:08,136 - __main__ - INFO - Timestamp: 2026-11-11T23:57:08.136171
+2026-11-11 23:57:08,136 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:08,138 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:57:08,139 - __main__ - INFO - Loading orders data...
+2026-11-11 23:57:08,177 - __main__ - INFO - Loaded 15000 orders
+2026-11-11 23:57:08,179 - __main__ - INFO - Validating A/B groups...
+2026-11-11 23:57:08,179 - __main__ - INFO - Found groups: <ArrowStringArray>
+['control', 'variant']
+Length: 2, dtype: str
+2026-11-11 23:57:08,180 - __main__ - INFO - Control group: 7620 orders
+2026-11-11 23:57:08,180 - __main__ - INFO - Variant group: 7380 orders
+2026-11-11 23:57:08,180 - __main__ - INFO - Testing revenue difference...
+2026-11-11 23:57:08,188 - __main__ - INFO -   Control mean: $5107.17
+2026-11-11 23:57:08,188 - __main__ - INFO -   Variant mean: $5032.33
+2026-11-11 23:57:08,188 - __main__ - INFO -   Difference: $-74.84 (-1.47%)
+2026-11-11 23:57:08,188 - __main__ - INFO -   p-value: 0.44078
+2026-11-11 23:57:08,188 - __main__ - INFO -   Cohen's d: 0.0126 (negligible)
+2026-11-11 23:57:08,188 - __main__ - INFO - Testing return rate difference...
+2026-11-11 23:57:08,201 - __main__ - INFO -   Control return rate: 9.53%
+2026-11-11 23:57:08,201 - __main__ - INFO -   Variant return rate: 9.13%
+2026-11-11 23:57:08,201 - __main__ - INFO -   Absolute difference: -0.39%
+2026-11-11 23:57:08,201 - __main__ - INFO -   p-value: 0.42206
+2026-11-11 23:57:08,201 - __main__ - INFO - Applying bonferroni correction for 2 tests...
+2026-11-11 23:57:08,201 - __main__ - INFO - Bonferroni adjusted alpha: 0.05 / 2 = 0.02500
+2026-11-11 23:57:08,201 - __main__ - INFO - Exporting test results...
+2026-11-11 23:57:08,205 - __main__ - INFO - Exported A/B test results to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\ab_test_results.csv
+2026-11-11 23:57:08,205 - __main__ - INFO - A/B testing pipeline completed successfully
+2026-11-11 23:57:32,419 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:32,419 - __main__ - INFO - A/B TESTING ANALYSIS PIPELINE
+2026-11-11 23:57:32,419 - __main__ - INFO - Timestamp: 2026-11-11T23:57:32.419860
+2026-11-11 23:57:32,419 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:32,422 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:57:32,423 - __main__ - INFO - Loading orders data...
+2026-11-11 23:57:32,457 - __main__ - INFO - Loaded 15000 orders
+2026-11-11 23:57:32,459 - __main__ - INFO - Validating A/B groups...
+2026-11-11 23:57:32,460 - __main__ - INFO - Found groups: <ArrowStringArray>
+['control', 'variant']
+Length: 2, dtype: str
+2026-11-11 23:57:32,461 - __main__ - INFO - Control group: 7620 orders
+2026-11-11 23:57:32,461 - __main__ - INFO - Variant group: 7380 orders
+2026-11-11 23:57:32,461 - __main__ - INFO - Testing revenue difference...
+2026-11-11 23:57:32,470 - __main__ - INFO -   Control mean: $5107.17
+2026-11-11 23:57:32,470 - __main__ - INFO -   Variant mean: $5032.33
+2026-11-11 23:57:32,470 - __main__ - INFO -   Difference: $-74.84 (-1.47%)
+2026-11-11 23:57:32,470 - __main__ - INFO -   p-value: 0.44078
+2026-11-11 23:57:32,470 - __main__ - INFO -   Cohen's d: 0.0126 (negligible)
+2026-11-11 23:57:32,470 - __main__ - INFO - Testing return rate difference...
+2026-11-11 23:57:32,483 - __main__ - INFO -   Control return rate: 9.53%
+2026-11-11 23:57:32,483 - __main__ - INFO -   Variant return rate: 9.13%
+2026-11-11 23:57:32,483 - __main__ - INFO -   Absolute difference: -0.39%
+2026-11-11 23:57:32,483 - __main__ - INFO -   p-value: 0.42206
+2026-11-11 23:57:32,483 - __main__ - INFO - Applying bonferroni correction for 2 tests...
+2026-11-11 23:57:32,484 - __main__ - INFO - Bonferroni adjusted alpha: 0.05 / 2 = 0.02500
+2026-11-11 23:57:32,484 - __main__ - INFO - Exporting test results...
+2026-11-11 23:57:32,488 - __main__ - INFO - Exported A/B test results to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\ab_test_results.csv
+2026-11-11 23:57:32,488 - __main__ - INFO - A/B testing pipeline completed successfully
+2026-11-11 23:58:27,531 - __main__ - INFO - ================================================================================
+2026-11-11 23:58:27,532 - __main__ - INFO - A/B TESTING ANALYSIS PIPELINE
+2026-11-11 23:58:27,532 - __main__ - INFO - Timestamp: 2026-11-11T23:58:27.532326
+2026-11-11 23:58:27,532 - __main__ - INFO - ================================================================================
+2026-11-11 23:58:27,535 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:58:27,536 - __main__ - INFO - Loading orders data...
+2026-11-11 23:58:27,606 - __main__ - INFO - Loaded 15000 orders
+2026-11-11 23:58:27,620 - __main__ - INFO - Validating A/B groups...
+2026-11-11 23:58:27,624 - __main__ - INFO - Found groups: <ArrowStringArray>
+['control', 'variant']
+Length: 2, dtype: str
+2026-11-11 23:58:27,628 - __main__ - INFO - Control group: 7620 orders
+2026-11-11 23:58:27,628 - __main__ - INFO - Variant group: 7380 orders
+2026-11-11 23:58:27,629 - __main__ - INFO - Testing revenue difference...
+2026-11-11 23:58:27,655 - __main__ - INFO -   Control mean: $5107.17
+2026-11-11 23:58:27,655 - __main__ - INFO -   Variant mean: $5032.33
+2026-11-11 23:58:27,655 - __main__ - INFO -   Difference: $-74.84 (-1.47%)
+2026-11-11 23:58:27,655 - __main__ - INFO -   p-value: 0.44078
+2026-11-11 23:58:27,656 - __main__ - INFO -   Cohen's d: 0.0126 (negligible)
+2026-11-11 23:58:27,656 - __main__ - INFO - Testing return rate difference...
+2026-11-11 23:58:27,704 - __main__ - INFO -   Control return rate: 9.53%
+2026-11-11 23:58:27,704 - __main__ - INFO -   Variant return rate: 9.13%
+2026-11-11 23:58:27,704 - __main__ - INFO -   Absolute difference: -0.39%
+2026-11-11 23:58:27,704 - __main__ - INFO -   p-value: 0.42206
+2026-11-11 23:58:27,705 - __main__ - INFO - Applying bonferroni correction for 2 tests...
+2026-11-11 23:58:27,705 - __main__ - INFO - Bonferroni adjusted alpha: 0.05 / 2 = 0.02500
+2026-11-11 23:58:27,705 - __main__ - INFO - Exporting test results...
+2026-11-11 23:58:27,722 - __main__ - INFO - Exported A/B test results to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\ab_test_results.csv
+2026-11-11 23:58:27,723 - __main__ - INFO - A/B testing pipeline completed successfully
+2026-11-11 23:59:19,618 - __main__ - INFO - ================================================================================
+2026-11-11 23:59:19,618 - __main__ - INFO - A/B TESTING ANALYSIS PIPELINE
+2026-11-11 23:59:19,619 - __main__ - INFO - Timestamp: 2026-11-11T23:59:19.619232
+2026-11-11 23:59:19,619 - __main__ - INFO - ================================================================================
+2026-11-11 23:59:19,629 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-11 23:59:19,629 - __main__ - INFO - Loading orders data...
+2026-11-11 23:59:19,721 - __main__ - INFO - Loaded 15000 orders
+2026-11-11 23:59:19,726 - __main__ - INFO - Validating A/B groups...
+2026-11-11 23:59:19,727 - __main__ - INFO - Found groups: <ArrowStringArray>
+['control', 'variant']
+Length: 2, dtype: str
+2026-11-11 23:59:19,729 - __main__ - INFO - Control group: 7620 orders
+2026-11-11 23:59:19,729 - __main__ - INFO - Variant group: 7380 orders
+2026-11-11 23:59:19,730 - __main__ - INFO - Testing revenue difference...
+2026-11-11 23:59:19,766 - __main__ - INFO -   Control mean: $5107.17
+2026-11-11 23:59:19,766 - __main__ - INFO -   Variant mean: $5032.33
+2026-11-11 23:59:19,766 - __main__ - INFO -   Difference: $-74.84 (-1.47%)
+2026-11-11 23:59:19,766 - __main__ - INFO -   p-value: 0.44078
+2026-11-11 23:59:19,766 - __main__ - INFO -   Cohen's d: 0.0126 (negligible)
+2026-11-11 23:59:19,766 - __main__ - INFO - Testing return rate difference...
+2026-11-11 23:59:19,810 - __main__ - INFO -   Control return rate: 9.53%
+2026-11-11 23:59:19,810 - __main__ - INFO -   Variant return rate: 9.13%
+2026-11-11 23:59:19,810 - __main__ - INFO -   Absolute difference: -0.39%
+2026-11-11 23:59:19,810 - __main__ - INFO -   p-value: 0.42206
+2026-11-11 23:59:19,810 - __main__ - INFO - Applying bonferroni correction for 2 tests...
+2026-11-11 23:59:19,810 - __main__ - INFO - Bonferroni adjusted alpha: 0.05 / 2 = 0.02500
+2026-11-11 23:59:19,811 - __main__ - INFO - Exporting test results...
+2026-11-11 23:59:19,825 - __main__ - INFO - Exported A/B test results to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\ab_test_results.csv
+2026-11-11 23:59:19,825 - __main__ - INFO - A/B testing pipeline completed successfully
+2026-11-12 22:31:06,081 - __main__ - INFO - ================================================================================
+2026-11-12 22:31:06,083 - __main__ - INFO - A/B TESTING ANALYSIS PIPELINE
+2026-11-12 22:31:06,083 - __main__ - INFO - Timestamp: 2026-11-12T22:31:06.083485
+2026-11-12 22:31:06,083 - __main__ - INFO - ================================================================================
+2026-11-12 22:31:06,093 - __main__ - INFO - Configuration loaded from C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\config.yml
+2026-11-12 22:31:06,095 - __main__ - INFO - Loading orders data...
+2026-11-12 22:31:06,240 - __main__ - INFO - Loaded 15000 orders
+2026-11-12 22:31:06,248 - __main__ - INFO - Validating A/B groups...
+2026-11-12 22:31:06,250 - __main__ - INFO - Found groups: <ArrowStringArray>
+['control', 'variant']
+Length: 2, dtype: str
+2026-11-12 22:31:06,254 - __main__ - INFO - Control group: 7620 orders
+2026-11-12 22:31:06,255 - __main__ - INFO - Variant group: 7380 orders
+2026-11-12 22:31:06,256 - __main__ - INFO - Testing revenue difference...
+2026-11-12 22:31:06,316 - __main__ - INFO -   Control mean: $5107.17
+2026-11-12 22:31:06,317 - __main__ - INFO -   Variant mean: $5032.33
+2026-11-12 22:31:06,317 - __main__ - INFO -   Difference: $-74.84 (-1.47%)
+2026-11-12 22:31:06,317 - __main__ - INFO -   p-value: 0.44078
+2026-11-12 22:31:06,318 - __main__ - INFO -   Cohen's d: 0.0126 (negligible)
+2026-11-12 22:31:06,318 - __main__ - INFO - Testing return rate difference...
+2026-11-12 22:31:06,380 - __main__ - INFO -   Control return rate: 9.53%
+2026-11-12 22:31:06,381 - __main__ - INFO -   Variant return rate: 9.13%
+2026-11-12 22:31:06,381 - __main__ - INFO -   Absolute difference: -0.39%
+2026-11-12 22:31:06,381 - __main__ - INFO -   p-value: 0.42206
+2026-11-12 22:31:06,382 - __main__ - INFO - Applying bonferroni correction for 2 tests...
+2026-11-12 22:31:06,382 - __main__ - INFO - Bonferroni adjusted alpha: 0.05 / 2 = 0.02500
+2026-11-12 22:31:06,382 - __main__ - INFO - Exporting test results...
+2026-11-12 22:31:06,397 - __main__ - INFO - Exported A/B test results to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\data\processed\ab_test_results.csv
+2026-11-12 22:31:06,398 - __main__ - INFO - A/B testing pipeline completed successfully

@@ -1,0 +1,189 @@
+2026-11-11 23:57:02,980 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:02,980 - __main__ - INFO - DATA ANALYTICS PIPELINE ORCHESTRATOR
+2026-11-11 23:57:02,980 - __main__ - INFO - Start Time: 2026-11-11T23:57:02.980341
+2026-11-11 23:57:02,980 - __main__ - INFO - Dry Run: False
+2026-11-11 23:57:02,980 - __main__ - INFO - Skip Validation: False
+2026-11-11 23:57:02,980 - __main__ - INFO - Stop on Error: True
+2026-11-11 23:57:02,980 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:02,980 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:57:02,981 - __main__ - INFO - RUNNING: Data Validation & Profiling
+2026-11-11 23:57:02,981 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\00_data_validation.py
+2026-11-11 23:57:02,981 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:04,019 - __main__ - INFO - Result: FAILED (exit code 1)
+2026-11-11 23:57:04,019 - __main__ - ERROR - Pipeline stopped due to failure in Data Validation & Profiling
+2026-11-11 23:57:04,019 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:57:04,019 - __main__ - INFO - RUNNING: Exploratory Data Analysis (EDA)
+2026-11-11 23:57:04,019 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\01_eda.py
+2026-11-11 23:57:04,019 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:05,298 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:57:05,298 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:57:05,298 - __main__ - INFO - RUNNING: RFM Customer Segmentation
+2026-11-11 23:57:05,298 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\02_rfm_segmentation.py
+2026-11-11 23:57:05,298 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:06,529 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:57:06,530 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:57:06,530 - __main__ - INFO - RUNNING: A/B Testing Analysis
+2026-11-11 23:57:06,530 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\03_ab_testing.py
+2026-11-11 23:57:06,530 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:08,406 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:57:08,406 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:57:08,406 - __main__ - INFO - RUNNING: Anomaly Detection
+2026-11-11 23:57:08,406 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\04_anomaly_detection.py
+2026-11-11 23:57:08,406 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:11,245 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:57:27,297 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:27,297 - __main__ - INFO - DATA ANALYTICS PIPELINE ORCHESTRATOR
+2026-11-11 23:57:27,298 - __main__ - INFO - Start Time: 2026-11-11T23:57:27.297701
+2026-11-11 23:57:27,298 - __main__ - INFO - Dry Run: False
+2026-11-11 23:57:27,298 - __main__ - INFO - Skip Validation: False
+2026-11-11 23:57:27,298 - __main__ - INFO - Stop on Error: True
+2026-11-11 23:57:27,298 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:27,298 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:57:27,298 - __main__ - INFO - RUNNING: Data Validation & Profiling
+2026-11-11 23:57:27,298 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\00_data_validation.py
+2026-11-11 23:57:27,298 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:28,394 - __main__ - INFO - Result: FAILED (exit code 1)
+2026-11-11 23:57:28,394 - __main__ - ERROR - Pipeline stopped due to failure in Data Validation & Profiling
+2026-11-11 23:57:28,395 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:57:28,395 - __main__ - INFO - RUNNING: Exploratory Data Analysis (EDA)
+2026-11-11 23:57:28,395 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\01_eda.py
+2026-11-11 23:57:28,395 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:29,547 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:57:29,547 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:57:29,547 - __main__ - INFO - RUNNING: RFM Customer Segmentation
+2026-11-11 23:57:29,547 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\02_rfm_segmentation.py
+2026-11-11 23:57:29,547 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:30,720 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:57:30,721 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:57:30,721 - __main__ - INFO - RUNNING: A/B Testing Analysis
+2026-11-11 23:57:30,721 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\03_ab_testing.py
+2026-11-11 23:57:30,721 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:32,685 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:57:32,686 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:57:32,686 - __main__ - INFO - RUNNING: Anomaly Detection
+2026-11-11 23:57:32,686 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\04_anomaly_detection.py
+2026-11-11 23:57:32,686 - __main__ - INFO - ================================================================================
+2026-11-11 23:57:35,663 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:57:35,665 - __main__ - INFO - Results saved to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\logs\pipeline_results.json
+2026-11-11 23:57:35,666 - __main__ - WARNING - Pipeline execution COMPLETED with failures
+2026-11-11 23:58:21,212 - __main__ - INFO - ================================================================================
+2026-11-11 23:58:21,212 - __main__ - INFO - DATA ANALYTICS PIPELINE ORCHESTRATOR
+2026-11-11 23:58:21,212 - __main__ - INFO - Start Time: 2026-11-11T23:58:21.211976
+2026-11-11 23:58:21,212 - __main__ - INFO - Dry Run: False
+2026-11-11 23:58:21,212 - __main__ - INFO - Skip Validation: True
+2026-11-11 23:58:21,212 - __main__ - INFO - Stop on Error: True
+2026-11-11 23:58:21,212 - __main__ - INFO - ================================================================================
+2026-11-11 23:58:21,213 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:58:21,213 - __main__ - INFO - RUNNING: Exploratory Data Analysis (EDA)
+2026-11-11 23:58:21,213 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\01_eda.py
+2026-11-11 23:58:21,213 - __main__ - INFO - ================================================================================
+2026-11-11 23:58:23,056 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:58:23,057 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:58:23,057 - __main__ - INFO - RUNNING: RFM Customer Segmentation
+2026-11-11 23:58:23,057 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\02_rfm_segmentation.py
+2026-11-11 23:58:23,057 - __main__ - INFO - ================================================================================
+2026-11-11 23:58:24,648 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:58:24,649 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:58:24,649 - __main__ - INFO - RUNNING: A/B Testing Analysis
+2026-11-11 23:58:24,649 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\03_ab_testing.py
+2026-11-11 23:58:24,649 - __main__ - INFO - ================================================================================
+2026-11-11 23:58:28,104 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:58:28,104 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:58:28,104 - __main__ - INFO - RUNNING: Anomaly Detection
+2026-11-11 23:58:28,105 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\04_anomaly_detection.py
+2026-11-11 23:58:28,105 - __main__ - INFO - ================================================================================
+2026-11-11 23:58:33,068 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:58:33,070 - __main__ - INFO - Results saved to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\logs\pipeline_results.json
+2026-11-11 23:58:33,071 - __main__ - INFO - Pipeline execution COMPLETED successfully
+2026-11-11 23:59:11,246 - __main__ - INFO - ================================================================================
+2026-11-11 23:59:11,247 - __main__ - INFO - DATA ANALYTICS PIPELINE ORCHESTRATOR
+2026-11-11 23:59:11,247 - __main__ - INFO - Start Time: 2026-11-11T23:59:11.246850
+2026-11-11 23:59:11,247 - __main__ - INFO - Dry Run: False
+2026-11-11 23:59:11,247 - __main__ - INFO - Skip Validation: False
+2026-11-11 23:59:11,247 - __main__ - INFO - Stop on Error: True
+2026-11-11 23:59:11,247 - __main__ - INFO - ================================================================================
+2026-11-11 23:59:11,247 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:59:11,247 - __main__ - INFO - RUNNING: Data Validation & Profiling
+2026-11-11 23:59:11,247 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\00_data_validation.py
+2026-11-11 23:59:11,247 - __main__ - INFO - ================================================================================
+2026-11-11 23:59:12,618 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:59:12,618 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:59:12,618 - __main__ - INFO - RUNNING: Exploratory Data Analysis (EDA)
+2026-11-11 23:59:12,619 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\01_eda.py
+2026-11-11 23:59:12,619 - __main__ - INFO - ================================================================================
+2026-11-11 23:59:13,799 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:59:13,799 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:59:13,799 - __main__ - INFO - RUNNING: RFM Customer Segmentation
+2026-11-11 23:59:13,799 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\02_rfm_segmentation.py
+2026-11-11 23:59:13,799 - __main__ - INFO - ================================================================================
+2026-11-11 23:59:15,269 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:59:15,269 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:59:15,270 - __main__ - INFO - RUNNING: A/B Testing Analysis
+2026-11-11 23:59:15,270 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\03_ab_testing.py
+2026-11-11 23:59:15,270 - __main__ - INFO - ================================================================================
+2026-11-11 23:59:20,277 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:59:20,277 - __main__ - INFO - 
+================================================================================
+2026-11-11 23:59:20,278 - __main__ - INFO - RUNNING: Anomaly Detection
+2026-11-11 23:59:20,278 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\04_anomaly_detection.py
+2026-11-11 23:59:20,278 - __main__ - INFO - ================================================================================
+2026-11-11 23:59:29,447 - __main__ - INFO - Result: SUCCESS
+2026-11-11 23:59:29,449 - __main__ - INFO - Results saved to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\logs\pipeline_results.json
+2026-11-11 23:59:29,450 - __main__ - INFO - Pipeline execution COMPLETED successfully
+2026-11-12 22:30:47,865 - __main__ - INFO - ================================================================================
+2026-11-12 22:30:47,866 - __main__ - INFO - DATA ANALYTICS PIPELINE ORCHESTRATOR
+2026-11-12 22:30:47,866 - __main__ - INFO - Start Time: 2026-11-12T22:30:47.865396
+2026-11-12 22:30:47,866 - __main__ - INFO - Dry Run: False
+2026-11-12 22:30:47,866 - __main__ - INFO - Skip Validation: False
+2026-11-12 22:30:47,866 - __main__ - INFO - Stop on Error: True
+2026-11-12 22:30:47,866 - __main__ - INFO - ================================================================================
+2026-11-12 22:30:47,866 - __main__ - INFO - 
+================================================================================
+2026-11-12 22:30:47,866 - __main__ - INFO - RUNNING: Data Validation & Profiling
+2026-11-12 22:30:47,866 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\00_data_validation.py
+2026-11-12 22:30:47,866 - __main__ - INFO - ================================================================================
+2026-11-12 22:30:49,245 - __main__ - INFO - Result: SUCCESS
+2026-11-12 22:30:49,245 - __main__ - INFO - 
+================================================================================
+2026-11-12 22:30:49,245 - __main__ - INFO - RUNNING: Exploratory Data Analysis (EDA)
+2026-11-12 22:30:49,245 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\01_eda.py
+2026-11-12 22:30:49,245 - __main__ - INFO - ================================================================================
+2026-11-12 22:30:50,596 - __main__ - INFO - Result: SUCCESS
+2026-11-12 22:30:50,596 - __main__ - INFO - 
+================================================================================
+2026-11-12 22:30:50,596 - __main__ - INFO - RUNNING: RFM Customer Segmentation
+2026-11-12 22:30:50,596 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\02_rfm_segmentation.py
+2026-11-12 22:30:50,596 - __main__ - INFO - ================================================================================
+2026-11-12 22:30:51,999 - __main__ - INFO - Result: SUCCESS
+2026-11-12 22:30:52,000 - __main__ - INFO - 
+================================================================================
+2026-11-12 22:30:52,000 - __main__ - INFO - RUNNING: A/B Testing Analysis
+2026-11-12 22:30:52,000 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\03_ab_testing.py
+2026-11-12 22:30:52,000 - __main__ - INFO - ================================================================================
+2026-11-12 22:31:06,829 - __main__ - INFO - Result: SUCCESS
+2026-11-12 22:31:06,829 - __main__ - INFO - 
+================================================================================
+2026-11-12 22:31:06,830 - __main__ - INFO - RUNNING: Anomaly Detection
+2026-11-12 22:31:06,830 - __main__ - INFO - Script: C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\python\04_anomaly_detection.py
+2026-11-12 22:31:06,830 - __main__ - INFO - ================================================================================
+2026-11-12 22:31:14,243 - __main__ - INFO - Result: SUCCESS
+2026-11-12 22:31:14,248 - __main__ - INFO - Results saved to C:\Users\Nitesh-PC\Downloads\ai-ecommerce-data-analytics-copilot-main\ai-ecommerce-data-analytics-copilot-main\logs\pipeline_results.json
+2026-11-12 22:31:14,248 - __main__ - INFO - Pipeline execution COMPLETED successfully
