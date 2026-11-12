@@ -1,0 +1,74 @@
+# Data Analytics Project Configuration
+# All tunable parameters and environment settings in one place
+
+# Data Paths
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  backup_dir: data/backups
+  logs_dir: logs
+
+# Analysis Parameters
+analysis:
+  # RFM Segmentation
+  rfm:
+    snapshot_offset_days: 1
+    segment_rules:
+      champions:
+        r_score_min: 4
+        f_score_min: 4
+      loyal:
+        r_score_min: 3
+        f_score_min: 3
+      at_risk:
+        r_score_max: 2
+        f_score_min: 3
+      new_promising:
+        r_score_min: 4
+        f_score_max: 2
+      regular:
+        description: "Default segment for unmatched combinations"
+  
+  # Anomaly Detection
+  anomaly:
+    contamination_rate: 0.03  # Expected proportion of anomalies (3%)
+    rolling_windows: [7, 30]  # Days for rolling averages
+    features: ["revenue", "orders", "return_rate"]
+    random_state: 42
+  
+  # A/B Testing
+  ab_test:
+    alpha: 0.05  # Significance level
+    correction: "bonferroni"  # Multiple comparison correction
+    min_sample_size: 100  # Minimum per group
+    exclude_returned: false  # Include returned orders in analysis
+  
+  # Data Validation
+  validation:
+    discount_pct_min: 0.0
+    discount_pct_max: 1.0
+    quantity_min: 1
+    rating_min: 1
+    rating_max: 5
+    shipping_days_min: 1
+    shipping_days_max: 30  # Sanity check threshold
+
+# Logging
+logging:
+  level: INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/analytics.log"
+  max_size_mb: 10
+  backup_count: 5
+
+# Features
+features:
+  enable_data_profiling: true
+  enable_visualization: false
+  enable_caching: true
+  backup_raw_data: true
+
+# Statistical Tests
+statistics:
+  confidence_level: 0.95  # 95% CI
+  effect_size_threshold: 0.1  # Minimum practical effect size (Cohen's d)
